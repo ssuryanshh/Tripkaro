@@ -1,0 +1,13 @@
+table{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-collapse: separate;
+}
+thead{
+display: table-header-group;
+}
+th{
+    padding: 2.5rem;
+    font-size: large
+    68;
+}

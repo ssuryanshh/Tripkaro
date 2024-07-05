@@ -1,0 +1,41 @@
+.Cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.Card{
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.P-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.P-qty{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.qty{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+p#inc , p#dec{
+    cursor: pointer;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
